@@ -1,0 +1,8 @@
+Interface adalah jenis khusus dari blok yang hanya berisi method signature (atau constant).  Interface mendefinisikan sebuah(signature) dari sebuah kumpulan method tanpa tubuh. Interface mendefinisikan sebuah cara standar dan umum dalam menetapkan sifat-sifat dari class-class. Mereka menyediakan class-class, tanpa memperhatikan lokasinya dalam hirarki class, untuk mengimplementasikan sifat-sifat yang umum. Dengan catatan bahwa interface-interface juga menunjukkan polimorfisme, dikarenakan program dapat memanggil method interface dan versi yang tepat dari method yang akan dieksekusi tergantung dari tipe object yang melewati pemanggil method interface.
+
+Untuk memahami lebih mudah, interface sekumpulan dari method-method yang dibuat tapi belum ada operasi di dalam tubuh method tersebut, interface ini bisa diturunkan atau diwariskan kepada class yang ingin memakai method yang ada dalam masing-masing interface tersebut dengan keyword extends [interface yang didefinisikan]. Dan juga sebuah class mengimplementasi 1 interface yang sudah dibuat dengan keyword implements.
+
+*Tagging Interface
+
+"Kita dapat memberi tag pada kelas kita dengan "Tagging Interface" untuk disampaikan kepada sesama pengembang dan konsumen kelas, sehingga kita dapat mendukung fungsionalitas tersebut secara eksplisit."
+
